@@ -7,9 +7,10 @@ import Links from "../ui/Links";
 import { useState } from "react";
 import { PiLinkSimple } from "react-icons/pi";
 import {motion} from 'framer-motion'
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-  const [body, setBody] = useState("work");
   const [showAllLinks,setShowAllLinks] = useState(false);
   return (
     <motion.div 
@@ -36,30 +37,24 @@ export default function Navbar() {
       <div className="WORK_INFO backdrop-blur-lg border-gray-500 border px-2 py-2 flex text- rounded-[3rem] items-center gap-6 lg:gap-10 text-white relative">
         <p
           className={`absolute rotate-90 leading-4 -top-2 font-extrabold text-lg bg-transparent
-           ${body === "work" && "left-[22%] shadow-[30px_5px_300px_60px_white]  md:shadow-[30px_5px_300px_30px_white]" } 
-          ${body === "info" && "right-[21%] shadow-[30px_5px_300px_60px_white] md:shadow-[30px_50px_300px_30px_white] "}`}
+           ${usePathname() === "/" && "left-[22%] shadow-[30px_5px_300px_60px_white]  md:shadow-[30px_5px_300px_30px_white]" } 
+          ${usePathname() === "/info" && "right-[21%] shadow-[30px_5px_300px_60px_white] md:shadow-[30px_50px_300px_30px_white] "}`}
         >|</p>
 
-        <div
+        <Link href="/"
           className={`py-2 px-3 lg:px-4 rounded-3xl ${
-            body === "work" && "bg-[rgb(39_38_38)]"
+            usePathname() === "/" && "bg-[rgb(39_38_38)]"
           } `}
-          onClick={() => {
-            setBody("work");
-          }}
         >
           Work
-        </div>
-        <div
+        </Link>
+        <Link href="/info"
           className={`py-2 px-3 lg:px-4 rounded-3xl ${
-            body === "info" && "bg-[rgb(39_38_38)]"
+            usePathname() === "/info" && "bg-[rgb(39_38_38)]"
           } `}
-          onClick={() => {
-            setBody("info");
-          }}
         >
           Info
-        </div>
+        </Link>
       </div>
       <Links></Links>
       <div className="inline-block lg:hidden">
