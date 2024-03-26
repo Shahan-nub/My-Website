@@ -22,7 +22,7 @@ export default function MyJourney() {
 
         <ImageBox src="/assets/mypic3.jpg"></ImageBox>
         <MyJourneyText title="In my spare time," desc="I play video games with my school buddies, try new cuisines, hit the gym, badminton and try to get my hands on the latest tech."></MyJourneyText>
-        <h2>Thanks for going through my journey.</h2>
+        <h2 className="text-white font-semibold italic">Thanks for going through my journey!</h2>
         {/* <Image src="/assets/sign.jpg" width={200} height={200} className="bg-transparent "></Image> */}
       </div>
 
