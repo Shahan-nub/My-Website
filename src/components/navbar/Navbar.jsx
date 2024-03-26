@@ -15,7 +15,7 @@ export default function Navbar() {
     <motion.div 
     initial={{opacity:0,}}
     animate={{opacity:1,}}
-    transition={{duration:.7,type:'tween'}}
+    transition={{duration:.7,type:'tween',delay:.3}}
     className="w-screen flex px-6 py-3 lg:py-5 lg:px-12 justify-between items-center">
       <div className="LOGO flex items-center gap-2 lg:gap-4">
         <div className="">

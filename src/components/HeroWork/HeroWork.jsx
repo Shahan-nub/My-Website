@@ -12,7 +12,7 @@ export default function HeroWork() {
     <motion.div 
     initial={{y:100 , opacity:0, scale:.92}}
     whileInView={{y:0,opacity:1}}
-    transition={{type:'tween',duration:1}}
+    transition={{type:'tween',duration:1,delay:0.3}}
     viewport={{once:true}}
     className=" flex justify-center w-full items-center mt-8 mb-12">
       <div className="HERO_WORK lg:w-[80vw] w-[90vw] border-t text-[#dddbd4] rounded-2xl bg-gradient-to-b from-[#212121] to-[#101010] h-[70vh] p-2">
