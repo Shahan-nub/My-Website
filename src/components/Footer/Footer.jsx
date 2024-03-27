@@ -1,15 +1,20 @@
+"use client"
 import Image from "next/image";
 import { PiInstagramLogoLight } from "react-icons/pi";
 import { IoLogoGithub } from "react-icons/io";
 import { MdArrowOutward } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa6";
-
+import {motion} from 'framer-motion'
 import Link from "next/link";
 
 export default function Footer() {
   return (
     <div className="w-screen flex flex-col lg:flex-row justify-between text-white border-t px-10 lg:px-40 py-6 lg:py-16">
-      <div className="flex flex-col ">
+      <motion.div className="flex flex-col "
+      initial={{opacity:0,x:-50}}
+      whileInView={{opacity:1,x:0}}
+      transition={{duration:.6,type:"tween"}}
+      >
         <div className="border shadow-[0_0_40px_1px_#5d5b5b] border-[#e3e2dd] p-[2px] w-max rounded-3xl hidden lg:inline-block">
           <Image
             src="/logo.jpg"
@@ -18,13 +23,17 @@ export default function Footer() {
             className="rounded-3xl bg-blend-multiply"
           ></Image>
         </div>
-        <div className="lg:mt-12 mt-4 ">
+        <div className="lg:mt-24 mt-4 ">
           &#169; 2024 Shahan Ali. All rights reserved.
         </div>
         <p className="text-color-1 lg:text-sm text-xs">Created on 27th March, 2024</p>
-      </div>
+      </motion.div>
 
-      <div className="flex flex-col my-10 lg:my-2 lg:pr-0 lg:border-none pr-24 border-r border-white gap-5 lg:gap-8 lg:text-2xl">
+      <motion.div className="flex flex-col my-10 lg:my-2 lg:pr-0 lg:border-none pr-24 border-r border-white gap-5 lg:gap-8 lg:text-2xl"
+         initial={{opacity:0,x:50}}
+         whileInView={{opacity:1,x:0}}
+         transition={{duration:.6,type:"tween"}}
+      >
         <span className="text-semibold lg:font-semibold text-sm text-color-1 leading-[10px">
             SOCIALS
         </span>
@@ -53,7 +62,7 @@ export default function Footer() {
           <MdArrowOutward></MdArrowOutward>
         </Link>
         <span className="text-color-1 lg:mt-0 mt-6 text-xs lg:text-sm">Last updated on April 4th, 2024.</span>
-      </div>
+      </motion.div>
     </div>
   );
 }
