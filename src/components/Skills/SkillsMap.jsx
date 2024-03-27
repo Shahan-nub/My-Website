@@ -6,7 +6,7 @@ export default function SkillsMap() {
     <div className='w-full flex justify-center md:flex-row flex-col gap-8 lg:gap-12'>
       {SkillsARR.map((SkillObj) => {
         return (
-            <SkillCard key={skillObj.skillClass} skillObj={SkillObj}></SkillCard>
+            <SkillCard key={SkillObj.skillClass} skillObj={SkillObj}></SkillCard>
         )
       })}
     </div>
