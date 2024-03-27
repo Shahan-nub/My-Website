@@ -14,6 +14,7 @@ export default function Footer() {
       initial={{opacity:0,x:-50}}
       whileInView={{opacity:1,x:0}}
       transition={{duration:.6,type:"tween"}}
+      viewport={{once:true}}
       >
         <div className="border shadow-[0_0_40px_1px_#5d5b5b] border-[#e3e2dd] p-[2px] w-max rounded-3xl hidden lg:inline-block">
           <Image
@@ -33,6 +34,7 @@ export default function Footer() {
          initial={{opacity:0,x:50}}
          whileInView={{opacity:1,x:0}}
          transition={{duration:.6,type:"tween"}}
+         viewport={{once:true}}
       >
         <span className="text-semibold lg:font-semibold text-sm text-color-1 leading-[10px">
             SOCIALS
