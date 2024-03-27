@@ -28,7 +28,7 @@ export default function MyJourney() {
         <div className="hidden md:inline-block">
           <MyJourneyText
             title="In my spare time,"
-            desc="I play video games with my school buddies, try new cuisines, hit the gym, badminton and try to get my hands on the latest tech."
+            desc="I play video games with my school buddies, try new cuisines, hit the gym, play badminton and try to get my hands on the latest tech."
           ></MyJourneyText>
           <h2 className="text-white font-semibold italic px-6">
             Thanks for going through my journey!
@@ -57,7 +57,7 @@ export default function MyJourney() {
           <ImageBox src="/assets/mypic2.jpg"></ImageBox>
           <MyJourneyText
             title="In my spare time,"
-            desc="I play video games with my school buddies, try new cuisines, hit the gym, badminton and try to get my hands on the latest tech."
+            desc="I play video games with my school buddies, try new cuisines, hit the gym, play badminton and try to get my hands on the latest tech."
           ></MyJourneyText>
           <ImageBox src="/assets/mypic4.jpg"></ImageBox>
 
