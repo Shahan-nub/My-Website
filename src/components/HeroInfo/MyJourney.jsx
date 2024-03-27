@@ -10,7 +10,7 @@ export default function MyJourney() {
       className="flex md:flex-row flex-col w-full lg:my-16 my-10 2xl:gap-14  gap-10 border-b border-[#d2ccbb] pb-9 lg:pb-16"
       initial={{ y: 75, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
-      transition={{ type: "tween", duration: 1 }}
+      transition={{ type: "tween", duration: 1,delay:.8 }}
       viewport={{ once: true }}
     >
       <div className="COL-1 flex flex-col">
