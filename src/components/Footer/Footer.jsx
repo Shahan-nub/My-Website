@@ -13,7 +13,7 @@ export default function Footer() {
       <motion.div className="flex flex-col "
       initial={{opacity:0,x:-50}}
       whileInView={{opacity:1,x:0}}
-      transition={{duration:.6,type:"tween"}}
+      transition={{duration:.6,type:"tween",delay:.5}}
       viewport={{once:true}}
       >
         <div className="border shadow-[0_0_40px_1px_#5d5b5b] border-[#e3e2dd] p-[2px] w-max rounded-3xl hidden lg:inline-block">
@@ -33,7 +33,7 @@ export default function Footer() {
       <motion.div className="flex flex-col my-10 lg:my-2 lg:pr-0 lg:border-none pr-24 border-r border-white gap-5 lg:gap-8 lg:text-2xl"
          initial={{opacity:0,x:50}}
          whileInView={{opacity:1,x:0}}
-         transition={{duration:.6,type:"tween"}}
+         transition={{duration:.6,type:"tween",delay:.5}}
          viewport={{once:true}}
       >
         <span className="text-semibold lg:font-semibold text-sm text-color-1 leading-[10px">
