@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <div className="w-screen flex flex-col lg:flex-row justify-between text-white border-t px-10 lg:px-40 py-6 lg:py-16">
       <motion.div className="flex flex-col "
-      initial={{opacity:0,x:-50}}
+      initial={{opacity:0,x:50}}
       whileInView={{opacity:1,x:0}}
       transition={{duration:.6,type:"tween",delay:.5}}
       viewport={{once:true}}
@@ -31,7 +31,7 @@ export default function Footer() {
       </motion.div>
 
       <motion.div className="flex flex-col my-10 lg:my-2 lg:pr-0 lg:border-none pr-24 border-r border-white gap-5 lg:gap-8 lg:text-2xl"
-         initial={{opacity:0,x:50}}
+         initial={{opacity:0,x:-50}}
          whileInView={{opacity:1,x:0}}
          transition={{duration:.6,type:"tween",delay:.5}}
          viewport={{once:true}}
