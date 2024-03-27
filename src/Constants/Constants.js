@@ -13,7 +13,7 @@ export const PROJECTS = [
     name: "The Stage Setters",
     frameworks: "React, Next, Tailwind, Framer-motion.",
     desc: "Website for a college based event organising society",
-    link: "the-stage-setters.vercel.app",
+    link: "https://the-stage-setters.vercel.app",
     imgSrc:'/assets/tss.png',
     w:1920,
     h:1008,
