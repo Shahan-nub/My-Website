@@ -42,14 +42,14 @@ export default function Navbar() {
         >|</p>
 
         <Link href="/"
-          className={`py-2 px-3 lg:px-4 rounded-3xl ${
+          className={`py-2 px-3 lg:px-4 rounded-3xl transition-all duration-300 hover:bg-[rgb(34_33_33)] ${
             usePathname() === "/" && "bg-[rgb(39_38_38)]"
           } `}
         >
           Work
         </Link>
         <Link href="/info"
-          className={`py-2 px-3 lg:px-4 rounded-3xl ${
+          className={`py-2 px-3 lg:px-4 rounded-3xl transition-all duration-300 hover:bg-[rgb(34_33_33)] ${
             usePathname() === "/info" && "bg-[rgb(39_38_38)]"
           } `}
         >
