@@ -8,12 +8,15 @@ export default function MyJourney() {
   return (
     <motion.div
       className="flex md:flex-row flex-col w-full lg:my-16 my-10 2xl:gap-14  gap-10"
-      initial={{ y: 75, opacity: 0, }}
+      initial={{ y: 75, opacity: 0 }}
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ type: "tween", duration: 1 }}
       viewport={{ once: true }}
     >
       <div className="COL-1 flex flex-col">
+        <div className="md:hidden inline-block">
+          <MyJourneyText title="This is my story - alongside some flicks from my college life."></MyJourneyText>
+        </div>
         <ImageBox src="/assets/mypic1.jpg"></ImageBox>
         <MyJourneyText
           title="My background in Computer Science."
@@ -21,22 +24,47 @@ export default function MyJourney() {
         ></MyJourneyText>
 
         <ImageBox src="/assets/mypic3.jpg"></ImageBox>
-        <MyJourneyText title="In my spare time," desc="I play video games with my school buddies, try new cuisines, hit the gym, badminton and try to get my hands on the latest tech."></MyJourneyText>
-        {/* <h2 className="text-white font-semibold italic">Thanks for going through my journey!</h2> */}
-        {/* <Image src="/assets/sign.jpg" width={200} height={200} className="bg-transparent "></Image> */}
+
+        <div className="hidden md:inline-block">
+          <MyJourneyText
+            title="In my spare time,"
+            desc="I play video games with my school buddies, try new cuisines, hit the gym, badminton and try to get my hands on the latest tech."
+          ></MyJourneyText>
+          <h2 className="text-white font-semibold italic px-6">
+            Thanks for going through my journey!
+          </h2>
+        </div>
+        {/* <Image src="/assets/sign.jpg" width={200} height={200} className=" bg-blend-multiply "></Image> */}
       </div>
 
       <div className="COL-2 flex flex-col">
-        <MyJourneyText title="This is my story - alongside some flicks from my college life."></MyJourneyText>
-        <ImageBox src="/assets/mypic2.jpg"></ImageBox>
-        
-        <MyJourneyText title="But, I wanted more"
-        desc={`I was deeply fascinated by how websites work and there's so much more to Web-development than HTML,CSS,JS. 
+        <div className="hidden md:inline-block">
+          <MyJourneyText title="This is my story - alongside some flicks from my college life."></MyJourneyText>
+          <ImageBox src="/assets/mypic2.jpg"></ImageBox>
+        </div>
+
+        <MyJourneyText
+          title="But, I wanted more"
+          desc={`I was deeply fascinated by how websites work and there's so much more to Web-development than HTML,CSS,JS. 
         Then, I came across frameworks and it was mind-boggling that how frameworks make development easier and better.\n
         All of these sum up to why I'm studying Computer Science Engineering at KIIT, Odisha.
         `}
         ></MyJourneyText>
-        <ImageBox src="/assets/mypic4.jpg"></ImageBox>
+        <div className="hidden md:inline-block">
+          <ImageBox src="/assets/mypic4.jpg"></ImageBox>
+        </div>
+        <div className="md:hidden inline-block">
+          <ImageBox src="/assets/mypic2.jpg"></ImageBox>
+          <MyJourneyText
+            title="In my spare time,"
+            desc="I play video games with my school buddies, try new cuisines, hit the gym, badminton and try to get my hands on the latest tech."
+          ></MyJourneyText>
+          <ImageBox src="/assets/mypic4.jpg"></ImageBox>
+
+          <h2 className="text-white font-semibold italic lg:mt-6 mt-10 px-6">
+            Thanks for going through my journey!
+          </h2>
+        </div>
       </div>
     </motion.div>
   );
