@@ -60,19 +60,19 @@ export default function Navbar() {
       <div className="inline-block lg:hidden">
         <PiLinkSimple className="text-[#e3e3db] text-3xl" onClick={() => setShowAllLinks(!showAllLinks)}></PiLinkSimple>
         <motion.div
-        initial={{x:20,y:-20,scale:.5,opacity:0}}
-        whileInView={{opacity:1,x:0,y:0,scale:1}}
+        initial={{y:-20,scale:.9,opacity:0}}
+        whileInView={{opacity:1,y:0,scale:1}}
         transition={{duration:.3,type:"tween",}}
         className={`${showAllLinks ? 'flex': 'hidden'} absolute flex-col backdrop-blur-sm py-2 px-3 border-[#dbdacf] border rounded-2xl top-16 right-2 z-50 text-white divide-y divide-[#dbdacf]`}
         >
-          <div className="flex z-20  mx-2 py-1 items-center justify-between">
-            <p>Linked in</p>
+          <Link href="https://www.linkedin.com/in/shahan-ali-anwer-5465972a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " className="flex z-20  mx-2 py-1 items-center gap-1 justify-between">
+            <p>LinkedIn</p>
             <MdArrowOutward></MdArrowOutward>
-          </div>
-          <div className="flex z-20 mx-2 py-1 items-center justify-between">
+          </Link>
+          <Link href="https://github.com/Shahan-nub" className="flex z-20 mx-2 py-1 items-center justify-between">
             <p>GitHub</p>
             <MdArrowOutward></MdArrowOutward>
-          </div>
+          </Link>
         </motion.div>
       </div>
     </motion.div>
