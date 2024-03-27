@@ -14,7 +14,7 @@ export default function SkillCard({skillObj}) {
         <h2 className="INTRO mb-4 lg:mb-8 font-bold text-2xl lg:text-4xl">{skillClass}</h2>
         {allSkills.map((skill) => {
             return(
-                <p className="text-color-1 italic">{skill}</p>
+                <p key={skill} className="text-color-1 italic">{skill}</p>
             )
         })}
       </div>
