@@ -65,6 +65,21 @@ body{
       #101010
     ) 1 100%;
 }
+.HBARS{
+  border-image-slice: 1;
+    border-width: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-top-width: 0;
+  border-image-source: 
+    linear-gradient(to right,
+      #101010,
+      white, 
+      #101010
+    );
+}
+
+
 .INTRO{
   /* font-family: 'Gloock','serif'; */
   text-shadow: 0 5px 10px rgba(0, 87, 255, .15), 0 -5px 10px rgba(255, 90, 0, .1), 0 -5px 25px rgba(255, 255, 255, .3);
