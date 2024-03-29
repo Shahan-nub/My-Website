@@ -20,7 +20,7 @@ export default function MyJourney() {
         <ImageBox src="/assets/mypic1.jpg"></ImageBox>
         <MyJourneyText
           title="My background in Computer Science."
-          desc="I was very much involved involved in tech since childhood but it was in 2022 after completing my high-school from Open Minds A Birla School, Patna-Bihar, I started exploring and learning new thing like web development, competetive-programming and different languages like C++, Java, JavaScript,etc."
+          desc="I was very much involved involved in tech since childhood but it was in 2022 after completing my high-school from Open Minds A Birla School, Patna-Bihar, I started exploring and learning new things like web development, competetive-programming and different languages like C++, Java, JavaScript,etc."
         ></MyJourneyText>
 
         <ImageBox src="/assets/mypic2.jpg"></ImageBox>
@@ -45,7 +45,7 @@ export default function MyJourney() {
 
         <MyJourneyText
           title="But, I wanted more"
-          desc={`I was deeply fascinated by how websites work and there's so much more to Web-development than HTML,CSS,JS. 
+          desc={`I was deeply fascinated by how websites work and there's so much more to Web-development than HTML, CSS, JS. 
         Then, I came across frameworks and it was mind-boggling that how frameworks make development easier and better.\n
         All of these sum up to why I'm studying Computer Science Engineering at KIIT, Odisha.
         `}
