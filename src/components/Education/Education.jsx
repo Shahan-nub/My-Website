@@ -8,7 +8,7 @@ export default function Education() {
       <BulletTitle title="EDUCATION"></BulletTitle>
      {EDUCATION.map(({degree,place,link}) => {
         return(
-            <EducationCard degree={degree} place={place} link={link}/>
+            <EducationCard key={degree} degree={degree} place={place} link={link}/>
         )
      })}
     </div>
