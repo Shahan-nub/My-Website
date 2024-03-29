@@ -1,6 +1,7 @@
 "use client"
 import {motion} from "framer-motion";
 import Headings from "../ui/Headings";
+import BulletTitle from "../ui/BulletTitle";
 
 export default function AboutMe() {
   return (
@@ -10,12 +11,7 @@ export default function AboutMe() {
     transition={{duration:1,type:'tween',delay:.8}}
     viewport={{once:true}}
     >
-      <div className="text-color-1 flex lg:mb-7 mb-4  gap-1 lg:gap-2">
-        <span className="DOT text-white text-lg lg:text-3xl">•</span>
-        <span className="font-medium text-xs self-center lg:tex-sm pt-[3px] lg:pt-1">
-          ABOUT ME
-        </span>
-      </div>
+      <BulletTitle title="ABOUT ME"/>
       <Headings
         normalText="I'm passionate about creating beautiful websites with amazing"
         spanText="user experience."

@@ -16,7 +16,7 @@ export default function Footer() {
       transition={{duration:.6,type:"tween",delay:.5}}
       viewport={{once:true}}
       >
-        <div className="border shadow-[0_0_40px_1px_#5d5b5b] border-[#e3e2dd] p-[2px] w-max rounded-3xl hidden lg:inline-block">
+        <div className="border shadow-[0_0_40px_1px_#5d5b5b] border-[#e3e2dd] p-[2px] w-max rounded-3xl hidden lg:inline-block mt-8">
           <Image
             src="/logo.jpg"
             width={70}

@@ -1,6 +1,7 @@
 "use client"
 import { motion } from "framer-motion";
 import Headings from "../ui/Headings";
+import BulletTitle from "../ui/BulletTitle";
 
 export default function SkillsTitle() {
   return (
@@ -10,12 +11,7 @@ export default function SkillsTitle() {
     transition={{duration:1,type:'tween'}}
     viewport={{once:true}}
     >
-      <div className="text-color-1 flex mb-4 lg:mb-7  gap-1 lg:gap-2">
-        <span className="DOT text-white text-lg lg:text-3xl">•</span>
-        <span className="font-medium text-xs self-center lg:tex-sm pt-[3px] lg:pt-1">
-          My skills
-        </span>
-      </div>
+      <BulletTitle title="MY SKILLS"></BulletTitle>
       <Headings
         normalText="I'm a MERN stack developer specialised in"
         spanText="frontend."
