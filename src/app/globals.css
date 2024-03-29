@@ -78,6 +78,19 @@ body{
       #101010
     );
 }
+.FOOTER_BAR{
+  border-image-slice: 1;
+    border-width: 1px;
+    border-left: 0;
+    border-bottom: 0;
+    border-top-width: 0;
+  border-image-source: 
+    linear-gradient(to right,
+      #101010,
+      white, 
+      #101010
+    );
+}
 
 
 .INTRO{
