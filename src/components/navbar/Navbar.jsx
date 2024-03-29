@@ -34,7 +34,7 @@ export default function Navbar() {
           </p>
         </div>
       </div>
-      <div className="WORK_INFO backdrop-blur-lg border-gray-500 border px-2 py-2 flex text- rounded-[3rem] items-center gap-6 lg:gap-10 text-white relative">
+      <div className="WORK_INFO backdrop-blur-lg border-gray-500 border px-2 py-2 flex text- rounded-[3rem] items-center text-sm gap-6 lg:gap-10 text-white relative">
         <p
           className={`absolute rotate-90 leading-4 -top-2 font-extrabold text-lg bg-transparent
            ${usePathname() === "/" && "left-[22%] shadow-[30px_5px_300px_60px_white]  md:shadow-[30px_5px_300px_30px_white]" } 
