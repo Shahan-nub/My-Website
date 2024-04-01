@@ -20,7 +20,7 @@ export default function Navbar() {
       className="w-screen flex px-6 py-3 lg:py-5 lg:px-12 justify-between items-center"
     >
       <div className="LOGO flex items-center gap-2 lg:gap-4">
-        <div className="">
+        <div className="rounded-full border border-[#f8f5e6] lg:p-[1.5px] p-[1px]">
           <Image
             src="/logo.jpg"
             width={40}
