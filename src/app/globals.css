@@ -107,6 +107,12 @@ body{
   font-optical-sizing: auto;
 }
 
+.SOCIALS{
+  box-shadow: 0 0 15px 1px #5d5b5b;
+}
+
+/* projects */
+
 .DC:hover{
   background: linear-gradient(to bottom,#303236,#131313);
   transition: all 300ms ease-in;
@@ -119,8 +125,9 @@ body{
 .PW:hover{
   background: linear-gradient(to bottom,#2d4867,#131313);
   transition: all 300ms ease-in;
+}
+.AI_TEMP:hover{
+  background: linear-gradient(to bottom,#532a58,#131313);
+  transition: all 300ms ease-in;
+}
 
-}
-.SOCIALS{
-  box-shadow: 0 0 15px 1px #5d5b5b;
-}

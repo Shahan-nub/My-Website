@@ -29,4 +29,14 @@ export const PROJECTS = [
     h:969,
     bg:'PW'
   },
+  {
+    name: "AI-template-ten",
+    frameworks: "React, NextJs, Tailwind.",
+    desc: "An e-commerce website for web-templates and designs.",
+    link: "https://ai-templates-ten.vercel.app/",
+    imgSrc:'/assets/aitemplate.png',
+    w:1900,
+    h:800,
+    bg:'AI_TEMP'
+  },
 ];

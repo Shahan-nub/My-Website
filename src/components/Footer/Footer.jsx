@@ -63,7 +63,7 @@ export default function Footer() {
           <p className="lg:text-base text-sm lg:font-medium ">LinkedIn</p>
           <MdArrowOutward></MdArrowOutward>
         </Link>
-        <span className="text-color-1 lg:mt-0 mt-6 text-xs lg:text-sm">Last updated on April 4th, 2024.</span>
+        <span className="text-color-1 lg:mt-0 mt-6 text-xs lg:text-sm">Last updated on May 11th, 2024.</span>
       </motion.div>
     </div>
   );
