@@ -127,7 +127,7 @@ body{
   transition: all 300ms ease-in;
 }
 .AI_TEMP:hover{
-  background: linear-gradient(to bottom,#532a58,#131313);
+  background: linear-gradient(to bottom,#1a1e3f,#131313);
   transition: all 300ms ease-in;
 }
 
