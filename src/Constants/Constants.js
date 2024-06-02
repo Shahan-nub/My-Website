@@ -1,5 +1,15 @@
 export const PROJECTS = [
   {
+    name: "AI-template-ten",
+    frameworks: "React, NextJs, Tailwind.",
+    desc: "An e-commerce website for web-templates and designs.",
+    link: "https://ai-templates-ten.vercel.app/",
+    imgSrc:'/assets/aitemplate.png',
+    w:1900,
+    h:800,
+    bg:'AI_TEMP'
+  },
+  {
     name: "Discord Clone",
     frameworks: "React, Next, Tailwind, Firebase.",
     desc: "Basic messaging app with Discord UI",
@@ -28,15 +38,5 @@ export const PROJECTS = [
     w:1920,
     h:969,
     bg:'PW'
-  },
-  {
-    name: "AI-template-ten",
-    frameworks: "React, NextJs, Tailwind.",
-    desc: "An e-commerce website for web-templates and designs.",
-    link: "https://ai-templates-ten.vercel.app/",
-    imgSrc:'/assets/aitemplate.png',
-    w:1900,
-    h:800,
-    bg:'AI_TEMP'
   },
 ];
