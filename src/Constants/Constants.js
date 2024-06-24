@@ -1,7 +1,7 @@
 export const PROJECTS = [
   {
     name: "AI-template-ten",
-    frameworks: "React, NextJs, Tailwind.",
+    frameworks: "React, NextJs, Tailwind, Framer-motion.",
     desc: "An e-commerce website for web-templates and designs.",
     link: "https://ai-templates-ten.vercel.app/",
     imgSrc:'/assets/aitemplate.png',
