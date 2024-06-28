@@ -1,3 +1,4 @@
+import ContactMe from "@/components/ContactMe/ContactMe";
 import HeroWork from "@/components/HeroWork/HeroWork";
 import Navbar from "@/components/navbar/Navbar";
 import ProjectCard from "@/components/projects/ProjectCard";
@@ -9,6 +10,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center">
     <HeroWork></HeroWork>
     <Projects></Projects>
+    <ContactMe></ContactMe>
     </div>
   );
 }
