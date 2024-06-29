@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export async function connectDB() {
     try {
-        mongoose.connect("mongodb+srv://shahanali12021:K70g6eHl8Z42x9b7@mdbbasics1.5ufndvh.mongodb.net/portfolio");
+        mongoose.connect(process.env.MONGODB_URI);
         const connection = mongoose.connection;
 
         connection.on("connected",() => {
