@@ -56,7 +56,7 @@ export default function Footer() {
           <MdArrowOutward></MdArrowOutward>
         </Link>
         <Link
-          href="https://www.linkedin.com/in/shahan-ali-anwer-5465972a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          href="https://www.linkedin.com/in/shahan-ali-anwer"
           className="flex items-center gap-4 cursor-pointer lg:gap-6 justify-between px-4"
         >
           <FaLinkedinIn className="" />
