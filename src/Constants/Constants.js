@@ -1,7 +1,17 @@
 export const PROJECTS = [
   {
+    name: "Imaginify",
+    frameworks: "NextJs, Tailwind, Framer-motion, Clerk.",
+    desc: "Image formatting site for AI background-fill, resizing and background removal.",
+    link: "https://image-generator-dev-ai.vercel.app",
+    imgSrc:'/assets/Imaginify.png',
+    w:1900,
+    h:800,
+    bg:'IMAGINIFY'
+  },
+  {
     name: "AI-template-ten",
-    frameworks: "React, NextJs, Tailwind, Framer-motion.",
+    frameworks: "NextJs, Tailwind, Framer-motion.",
     desc: "An e-commerce website for web-templates and designs.",
     link: "https://ai-templates-ten.vercel.app/",
     imgSrc:'/assets/aitemplate.png',
@@ -11,7 +21,7 @@ export const PROJECTS = [
   },
   {
     name: "Discord Clone",
-    frameworks: "React, Next, Tailwind, Firebase.",
+    frameworks: "NextJs, Tailwind, Firebase.",
     desc: "Basic messaging app with Discord UI",
     link: "http://chatting-app-rust.vercel.app",
     imgSrc:'/assets/dc.png',

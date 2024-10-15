@@ -130,4 +130,8 @@ body{
   background: linear-gradient(to bottom,#1a1e3f,#131313);
   transition: all 300ms ease-in;
 }
+.IMAGINIFY:hover{
+  background: linear-gradient(to bottom,#301a3f,#131313);
+  transition: all 300ms ease-in;
+}
 
