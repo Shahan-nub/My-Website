@@ -21,7 +21,7 @@ export default function ContactMe() {
       console.log(response.data);
     } catch (error) {
         console.log(error);
-    }
+    }  
   }
 
   return (

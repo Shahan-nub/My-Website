@@ -1,5 +1,15 @@
 export const PROJECTS = [
   {
+    name: "Resume Analyzer",
+    frameworks: "NextJs, Tailwind, Shadcn, Clerk, Supabase, Gemini, Jooble API",
+    desc: "An app which takes resume as input and displays key features in the dashboard using Gemini and recommends related jobs using jooble.",
+    link: "https://resume-analyzer-five.vercel.app",
+    imgSrc:'/assets/resume-analyzer.png',
+    w:1900,
+    h:800,
+    bg:'RESUME_ANALYZER'
+  },
+  {
     name: "Imaginify",
     frameworks: "NextJs, Tailwind, Framer-motion, Clerk.",
     desc: "Image formatting site for AI background-fill, resizing and background removal.",

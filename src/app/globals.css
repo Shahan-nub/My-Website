@@ -134,4 +134,7 @@ body{
   background: linear-gradient(to bottom,#462f65,#131313);
   transition: all 300ms ease-in;
 }
-
+.RESUME_ANALYZER{
+  background: linear-gradient(to bottom,#162f4c,#131313);
+  transition: all 300ms ease-in;
+}
